@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 24px;
+}
+
+#gameArea {
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #00FF00;
+    position: absolute;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: #FF0000;
+    position: absolute;
+}
